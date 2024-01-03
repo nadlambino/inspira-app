@@ -1,0 +1,15 @@
+/vendor
+/node_modules
+/cache
+.env
+/public/*
+!/public/index.php
+!/public/.htaccess
+!/public/favicon.ico
+!/public/icon.png
+!/public/css
+!/public/css/app.css
+.idea
+/database/inspire.db
+/database/database.db
+/.gitold

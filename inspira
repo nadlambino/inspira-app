@@ -1,0 +1,30 @@
+#!/usr/bin/env php
+<?php
+
+require './vendor/autoload.php';
+
+use Console\CommandRegistry;
+use Inspira\Console\Console;
+use Inspira\Console\Input;
+use Inspira\Console\Output;
+use Inspira\Framework\Application;
+
+/** @var Application $app */
+$app = require './bootstrap/app.php';
+
+$app->setBasePath('./')
+    ->runAppOnConsole()
+    ->boot()
+    ->start();
+
+$input = new Input();
+$output = new Output();
+
+$app->singleton(Input::class, fn() => $input);
+$app->singleton(Output::class, fn() => $output);
+
+$console = new Console($app, $input, $output);
+(new CommandRegistry($console))->register();
+
+$console->run();
+exit(0);
