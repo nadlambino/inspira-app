@@ -1,6 +1,6 @@
 {
-	"name": "nadlambino/inspire",
-	"description": "Inspire: A simple PHP MVC framework.",
+	"name": "inspira/application",
+	"description": "The Inspira application setup",
 	"version": "dev-master",
 	"autoload": {
 		"psr-4": {
