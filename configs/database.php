@@ -96,7 +96,7 @@ return [
 
 		'sqlite' => [
 			'driver'   => 'sqlite',
-			'database' => env('DB_DATABASE', '../database/inspire.db'),
+			'database' => env('DB_DATABASE', '../database/sqlite.db'),
 
 			/**
 			 * Database connection string
