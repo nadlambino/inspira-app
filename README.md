@@ -1,4 +1,4 @@
-# 🔥Inspire Framework
+# 🔥Inspira Framework
 A simple PHP MVC framework inspired from Laravel.
 
 ### DISCLAIMER !!!
@@ -9,19 +9,19 @@ This project is for fun and educational purposes only.
 ### How to use?
 #### Create a project via composer.
 ```
-composer create-project nadlambino/inspire -s dev project-name
+composer create-project inspira/application -s dev <project-name>
 ```
 Note:
 - You can change the project name to your desired name
 
 #### Start the application.
 ```
-php inspire run
+php wizard run
 ```
 Note:
 - You can set a custom port by providing the `port` option in the command
 - You can also set a custom host by providing the `host` option in the command. Just make sure that this host is added in your host file.
-- To see all available commands, run `php inspire`.
+- To see all available commands, run `php wizard`.
 
 <hr />
 
@@ -49,12 +49,10 @@ The parameters are as follows:
 
 <pre>
 <code>
-use Inspire\Facades\Router;
+use App\Controllers\HomeController;
 
-Router::get('/', [HomeController::class, 'index'], \App\Middlewares\AuthMiddleware::class, 'home');
-
-// Route with required and optional route parameter
-Router::get('/user/:id/posts/:post?', [HomeController::class, 'index'], \App\Middlewares\AuthMiddleware::class, 'home');
+/** @var Inspire\Http\Router\Router $router */
+$router->get('/user/:id/posts/:post?', [HomeController::class, 'index'], \App\Middlewares\AuthMiddleware::class, 'home');
 </code>
 </pre>
 
@@ -67,7 +65,7 @@ You can access these parameters from the request object via property access or g
 For example, you register the following route `/users/:id/posts/:post?`
 <pre>
 <code>
-use Inspire\Http\Request;
+use Inspira\Http\Request;
 
 class HomeController
 {
@@ -93,7 +91,7 @@ If you wish to only run the middleware on specific route, then you should set `$
 <code>
 namespace App\Middlewares;
 
-use Inspire\Http\Middlewares\Middleware;
+use Inspira\Http\Middlewares\Middleware;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
@@ -120,7 +118,7 @@ through the use of PHP's Reflection API.
 
 Service Container can be used to 
 - Bind a concrete class to an abstract class
-- Bind a singleton
+- Bind a singleton class
 - Make an instance of a class with deep dependency
 
 Currently, container can only resolve injected dependencies that are a valid class, enum, or interface. However, you can still bind an implementation to any word you want
@@ -129,7 +127,7 @@ and use the `make` method to resolve it.
 <pre>
 <code>
 // Example of binding
-app()->bind(StorageInterface::class, LocalStorage::class);
+container()->bind(StorageInterface::class, LocalStorage::class);
 
 // In controller method
 public function upload(StorageInterface $storage) {
@@ -138,7 +136,7 @@ public function upload(StorageInterface $storage) {
 
 // Example of singleton binding
 // You will get only one instance of Database class throughout the request
-app()->singleton(DatabaseInterface::class, Database::class); // or app()->singleton(Database::class) if you don't need to bind it to an interface
+container()->singleton(DatabaseInterface::class, Database::class); // or container()->singleton(Database::class) if you don't need to bind it to an interface
 
 // In controller method
 public function create(Database $database) {
@@ -148,6 +146,6 @@ public function create(Database $database) {
 // Example of making an instance
 // Let's say that request class has a lot of dependencies, and it's dependencies also have dependencies
 // Service Container will do all the work for you to make an instance of it
-app()->make(Request::class); // or app()->make('auth') if for example you bound an Auth class to the word `auth`
+container()->make(Request::class); // or container()->make('auth') if for example you bound an Auth class to the word `auth`
 </code>
 </pre>
