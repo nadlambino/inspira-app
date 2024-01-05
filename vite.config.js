@@ -6,10 +6,10 @@ export default defineConfig({
         manifest: true,
         emptyOutDir: false,
         rollupOptions: {
-            input: ['resources/js/main.js', 'resources/css/app.css'],
+            input: ['assets/js/main.js', 'assets/css/app.css'],
         },
     },
     optimizeDeps: {
-        include: ['resources/**/*.{js,css}'],
+        include: ['assets/**/*.{js,css}'],
     },
 });
