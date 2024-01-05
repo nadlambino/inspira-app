@@ -218,12 +218,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-console.git",
-                "reference": "201d4af25b0e211588f31f96ec55072cf9c1ede0"
+                "reference": "f5623de1acea1d6f33068c9aa0bb8e2525af2e03"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-console/zipball/201d4af25b0e211588f31f96ec55072cf9c1ede0",
-                "reference": "201d4af25b0e211588f31f96ec55072cf9c1ede0",
+                "url": "https://api.github.com/repos/nadlambino/php-console/zipball/f5623de1acea1d6f33068c9aa0bb8e2525af2e03",
+                "reference": "f5623de1acea1d6f33068c9aa0bb8e2525af2e03",
                 "shasum": ""
             },
             "require": {
@@ -252,7 +252,7 @@
                 "issues": "https://github.com/nadlambino/php-console/issues",
                 "source": "https://github.com/nadlambino/php-console/tree/master"
             },
-            "time": "2023-12-30T04:35:46+00:00"
+            "time": "2024-01-05T09:17:10+00:00"
         },
         {
             "name": "inspira/container",
