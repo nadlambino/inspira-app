@@ -8,7 +8,7 @@ return [
 			'driver'   => 'mysql',
 			'host'     => env('DB_HOST', 'localhost'),
 			'port'     => env('DB_PORT', 3306),
-			'database' => env('DB_DATABASE', 'inspire_db'),
+			'database' => env('DB_DATABASE', 'inspira'),
 
 			/**
 			 * Database connection string
@@ -38,7 +38,7 @@ return [
 			'driver'   => 'pgsql',
 			'host'     => env('DB_HOST', 'localhost'),
 			'port'     => env('DB_PORT', 5432),
-			'database' => env('DB_DATABASE', 'inspire_db'),
+			'database' => env('DB_DATABASE', 'inspira'),
 
 			/**
 			 * Database connection string
@@ -68,7 +68,7 @@ return [
 			'driver'   => 'sqlsrv',
 			'host'     => env('DB_HOST', 'localhost'),
 			'port'     => env('DB_PORT', 1433),
-			'database' => env('DB_DATABASE', 'inspire_db'),
+			'database' => env('DB_DATABASE', 'inspira'),
 
 			/**
 			 * Database connection string
@@ -114,7 +114,7 @@ return [
 			'driver'   => 'oci',
 			'host'     => env('DB_HOST', 'localhost'),
 			'port'     => env('DB_PORT', 1521),
-			'database' => env('DB_DATABASE', 'inspire_db'),
+			'database' => env('DB_DATABASE', 'inspira'),
 
 			/**
 			 * Database connection string

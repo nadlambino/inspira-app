@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Inspire</title>
+    <title>Welcome to Inspira</title>
     <link rel="icon" type="image/png" sizes="16x16" href="<?= base_url('favicon.ico') ?>">
     <link href="<?= base_url('/css/app.css') ?>" rel="stylesheet">
 </head>

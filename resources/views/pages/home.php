@@ -5,9 +5,9 @@
     <h1 class="text-5xl font-thin text-slate-700 text-center relative">
         <span class="text-slate-400 font-extrabold">Welcome to</span>
         <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-blue-600">
-            Inspire Framework
+            Inspira Framework
         </span>
-        <img src="./icon.png" alt="Icon" class="w-10 h-10 inline" />
+        <img src="<?= base_url('icon.png')?>" alt="Icon" class="w-10 h-10 inline" />
     </h1>
     <h3 class="text-center text-4xl text-slate-400 font-thin">
         a simple PHP MVC framework.
@@ -24,7 +24,7 @@
             This project is still in progress. Some pages and features are not available yet, however you can still play with it.
         </p>
         <p>
-            You may visit the <a href="https://github.com/nadlambino/inspire-core" target="_blank">repository</a> to check the code.
+            You may visit the <a href="https://github.com/nadlambino/inspira-framework" target="_blank">repository</a> to check the code.
         </p>
     </div>
     <ul class="flex flex-wrap justify-center gap-5 md:gap-10 w-full mt-5 pb-5">

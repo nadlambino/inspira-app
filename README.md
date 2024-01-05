@@ -51,7 +51,7 @@ The parameters are as follows:
 <code>
 use App\Controllers\HomeController;
 
-/** @var Inspire\Http\Router\Router $router */
+/** @var Inspira\Http\Router\Router $router */
 $router->get('/user/:id/posts/:post?', [HomeController::class, 'index'], \App\Middlewares\AuthMiddleware::class, 'home');
 </code>
 </pre>
