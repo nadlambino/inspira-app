@@ -21,10 +21,13 @@
     <div class="note warning mt-5">
         <h1>Warning</h1>
         <p>
-            This project is still in progress. Some pages and features are not available yet, however you can still play with it.
+            This project is still in progress. Some pages and features are not yet available.
+            However, you can still play with it.
+            Go, try and build something.
         </p>
         <p>
-            You may visit the <a href="https://github.com/nadlambino/inspira-framework" target="_blank">repository</a> to check the code.
+            For bugs and feature requests, you may visit the
+            <a href="https://github.com/nadlambino/inspira-framework" target="_blank">repository</a>.
         </p>
     </div>
     <ul class="flex flex-wrap justify-center gap-5 md:gap-10 w-full mt-5 pb-5">

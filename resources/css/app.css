@@ -11,11 +11,11 @@ body {
 }
 
 .note h1 {
-    @apply font-bold text-xs  uppercase;
+    @apply font-bold text-xs uppercase;
 }
 
 .info {
-    @apply border-blue-400 bg-blue-400 text-white tracking-wider;
+    @apply border-blue-400 bg-blue-400 text-white;
 }
 
 .info h1 {
@@ -23,7 +23,7 @@ body {
 }
 
 .warning {
-    @apply border-orange-400 bg-orange-400 text-white tracking-wider;
+    @apply border-orange-400 bg-orange-400 text-white;
 }
 
 .warning h1 {
@@ -35,7 +35,7 @@ body {
 }
 
 ul li {
-    @apply font-bold text-green-500 tracking-wider;
+    @apply font-bold text-green-500;
 }
 
 ul li.disabled {
