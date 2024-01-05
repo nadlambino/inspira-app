@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use Inspire\Database\ORM\Model;
+use Inspira\Database\ORM\Model;
 
 class User extends Model
 {
