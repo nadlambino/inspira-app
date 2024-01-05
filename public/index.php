@@ -8,8 +8,7 @@ use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
 
 try {
-	/** @var Application $app */
-	$app = require './../bootstrap/app.php';
+	$app = new Application();
 	$app->setBasePath(dirname(__DIR__))
 		->boot()
 		->start();

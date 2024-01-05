@@ -9,8 +9,7 @@ use Inspira\Console\Input;
 use Inspira\Console\Output;
 use Inspira\Framework\Application;
 
-/** @var Application $app */
-$app = require './bootstrap/app.php';
+$app = new Application();
 
 $app->setBasePath('./')
     ->runAppOnConsole()
