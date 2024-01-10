@@ -5,6 +5,9 @@ require './vendor/autoload.php';
 
 use Console\CommandRegistry;
 use Inspira\Console\Console;
+use Inspira\Console\Contracts\CommandRegistryInterface;
+use Inspira\Console\Contracts\InputInterface;
+use Inspira\Console\Contracts\OutputInterface;
 use Inspira\Console\Input;
 use Inspira\Console\Output;
 use Inspira\Framework\Application;
@@ -18,12 +21,12 @@ $app->setBasePath('./')
 
 $input = new Input();
 $output = new Output();
+$registry = new CommandRegistry();
+$registry->register();
 
-$app->singleton(Input::class, fn() => $input);
-$app->singleton(Output::class, fn() => $output);
+$app->singleton(InputInterface::class, fn() => $input);
+$app->singleton(OutputInterface::class, fn() => $output);
+$app->singleton(CommandRegistryInterface::class, fn() => $registry);
 
-$console = new Console($app, $input, $output);
-(new CommandRegistry($console))->register();
-
-$console->run();
+(new Console($app, $input, $output, $registry))->run();
 exit(0);

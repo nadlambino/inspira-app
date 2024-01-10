@@ -4,17 +4,25 @@ declare(strict_types=1);
 
 namespace Console;
 
-use Inspira\Console\Input;
-use Inspira\Console\Output;
+use Inspira\Console\Contracts\InputInterface;
+use Inspira\Console\Contracts\OutputInterface;
+use Inspira\Console\Enums\Color;
+use Inspira\Console\Styles\Styles;
 use Inspira\Framework\Commands\CommandRegistry as Registry;
 
 class CommandRegistry extends Registry
 {
 	public function register(): void
 	{
-		$this->console->command('hello', function(Input $input, Output $output) {
-			$name = ucwords($input->getArguments('name', 'Developer'));
-			$output->success("Hello $name, have a great day!");
+		$this->addCommand('hello', function(InputInterface $input, OutputInterface $output) {
+			$name = ucwords($input->getArgument('name', 'Developer'));
+			$message = Styles::make()
+				->paint(Color::GREEN)
+				->paddingX(20)
+				->paddingY(1)
+				->apply("Hello $name, have a great day!");
+
+			$output->writeln($message);
 		});
 	}
 }
