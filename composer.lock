@@ -345,12 +345,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-error-page.git",
-                "reference": "340fb022933a1f651e1245cfdba779a815a285e0"
+                "reference": "34be478f92fc1f54b9337504c20184279c43d153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-error-page/zipball/340fb022933a1f651e1245cfdba779a815a285e0",
-                "reference": "340fb022933a1f651e1245cfdba779a815a285e0",
+                "url": "https://api.github.com/repos/nadlambino/php-error-page/zipball/34be478f92fc1f54b9337504c20184279c43d153",
+                "reference": "34be478f92fc1f54b9337504c20184279c43d153",
                 "shasum": ""
             },
             "require": {
@@ -383,7 +383,7 @@
                 "issues": "https://github.com/nadlambino/php-error-page/issues",
                 "source": "https://github.com/nadlambino/php-error-page/tree/master"
             },
-            "time": "2024-01-24T10:24:55+00:00"
+            "time": "2024-01-24T12:15:12+00:00"
         },
         {
             "name": "inspira/framework",
