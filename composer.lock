@@ -123,17 +123,58 @@
             "time": "2023-11-12T22:16:48+00:00"
         },
         {
+            "name": "inspira/augmentable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nadlambino/php-augmentable.git",
+                "reference": "ff2d7561bb654af05f2d4cbe4806ef431a4da359"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nadlambino/php-augmentable/zipball/ff2d7561bb654af05f2d4cbe4806ef431a4da359",
+                "reference": "ff2d7561bb654af05f2d4cbe4806ef431a4da359",
+                "shasum": ""
+            },
+            "require-dev": {
+                "pestphp/pest": "3.x-dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Inspira\\Augmentable\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronald Lambino",
+                    "email": "50892397+nadlambino@users.noreply.github.com"
+                }
+            ],
+            "description": "Augment PHP class at runtime.",
+            "support": {
+                "issues": "https://github.com/nadlambino/php-augmentable/issues",
+                "source": "https://github.com/nadlambino/php-augmentable/tree/master"
+            },
+            "time": "2024-01-12T11:39:31+00:00"
+        },
+        {
             "name": "inspira/collection",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-collection.git",
-                "reference": "ba6db5947677c17ab416e1b625ea1c45dc8e9115"
+                "reference": "0f80cd4cd7a863879da2e9ac0125cadc5250a93a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-collection/zipball/ba6db5947677c17ab416e1b625ea1c45dc8e9115",
-                "reference": "ba6db5947677c17ab416e1b625ea1c45dc8e9115",
+                "url": "https://api.github.com/repos/nadlambino/php-collection/zipball/0f80cd4cd7a863879da2e9ac0125cadc5250a93a",
+                "reference": "0f80cd4cd7a863879da2e9ac0125cadc5250a93a",
                 "shasum": ""
             },
             "require": {
@@ -166,7 +207,7 @@
                 "issues": "https://github.com/nadlambino/php-collection/issues",
                 "source": "https://github.com/nadlambino/php-collection/tree/master"
             },
-            "time": "2024-01-11T10:54:15+00:00"
+            "time": "2024-01-29T11:42:55+00:00"
         },
         {
             "name": "inspira/config",
@@ -500,26 +541,35 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-pdo-database.git",
-                "reference": "34f49a197be5bc15978ce2713721d961e915775b"
+                "reference": "52a5f15a00d3c7d5cddb71ea4767bd3b6ee1a70e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/34f49a197be5bc15978ce2713721d961e915775b",
-                "reference": "34f49a197be5bc15978ce2713721d961e915775b",
+                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/52a5f15a00d3c7d5cddb71ea4767bd3b6ee1a70e",
+                "reference": "52a5f15a00d3c7d5cddb71ea4767bd3b6ee1a70e",
                 "shasum": ""
             },
             "require": {
+                "inspira/augmentable": "dev-master",
+                "inspira/collection": "dev-master",
                 "inspira/config": "dev-master",
                 "inspira/container": "dev-master",
                 "inspira/contracts": "dev-master",
                 "inspira/utils": "dev-master",
                 "symfony/string": "7.1.x-dev"
             },
+            "require-dev": {
+                "inspira/error-page": "dev-master",
+                "symfony/var-dumper": "7.1.x-dev"
+            },
             "default-branch": true,
             "type": "library",
             "autoload": {
+                "files": [
+                    "./src/functions.php"
+                ],
                 "psr-4": {
-                    "Inspira\\Database\\": "."
+                    "Inspira\\Database\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -537,7 +587,7 @@
                 "issues": "https://github.com/nadlambino/php-pdo-database/issues",
                 "source": "https://github.com/nadlambino/php-pdo-database/tree/master"
             },
-            "time": "2023-12-28T09:39:40+00:00"
+            "time": "2024-01-29T12:30:05+00:00"
         },
         {
             "name": "inspira/utils",
