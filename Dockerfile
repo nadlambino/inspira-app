@@ -1,5 +1,5 @@
 # Use the official PHP image with Apache as the base image
-FROM php:8.2-apache
+FROM php:8.3-apache
 
 # Set the working directory
 WORKDIR /var/www/html/inspire
