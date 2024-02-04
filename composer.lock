@@ -167,17 +167,62 @@
             "time": "2024-02-02T10:50:30+00:00"
         },
         {
+            "name": "inspira/closest-match",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nadlambino/php-closest-match.git",
+                "reference": "ca5db9ece738961c931b4ebaa4988e2e98e0f29d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nadlambino/php-closest-match/zipball/ca5db9ece738961c931b4ebaa4988e2e98e0f29d",
+                "reference": "ca5db9ece738961c931b4ebaa4988e2e98e0f29d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "php": "^8.3",
+                "symfony/var-dumper": "7.1.x-dev"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "Inspira\\ClosesMatch\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ronald Lambino",
+                    "email": "50892397+nadlambino@users.noreply.github.com"
+                }
+            ],
+            "description": "Find the closest match of a string.",
+            "support": {
+                "issues": "https://github.com/nadlambino/php-closest-match/issues",
+                "source": "https://github.com/nadlambino/php-closest-match/tree/master"
+            },
+            "time": "2024-02-04T03:25:41+00:00"
+        },
+        {
             "name": "inspira/collection",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-collection.git",
-                "reference": "0dad2cd9cd1908892d7d57bc1a699bac32b9e53b"
+                "reference": "02430528cc94137130cab034c182e964383ea1e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-collection/zipball/0dad2cd9cd1908892d7d57bc1a699bac32b9e53b",
-                "reference": "0dad2cd9cd1908892d7d57bc1a699bac32b9e53b",
+                "url": "https://api.github.com/repos/nadlambino/php-collection/zipball/02430528cc94137130cab034c182e964383ea1e2",
+                "reference": "02430528cc94137130cab034c182e964383ea1e2",
                 "shasum": ""
             },
             "require": {
@@ -192,8 +237,11 @@
             "default-branch": true,
             "type": "library",
             "autoload": {
+                "files": [
+                    "src/functions.php"
+                ],
                 "psr-4": {
-                    "Inspira\\Collection\\": "."
+                    "Inspira\\Collection\\": "/src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -211,7 +259,7 @@
                 "issues": "https://github.com/nadlambino/php-collection/issues",
                 "source": "https://github.com/nadlambino/php-collection/tree/master"
             },
-            "time": "2024-02-02T10:50:32+00:00"
+            "time": "2024-02-04T03:37:07+00:00"
         },
         {
             "name": "inspira/config",
@@ -396,12 +444,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-error-page.git",
-                "reference": "1f4931ba34896c8243f8f4150426dd069dde089c"
+                "reference": "55df6079a7d119ee8ed29d3e896f8e178742124c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-error-page/zipball/1f4931ba34896c8243f8f4150426dd069dde089c",
-                "reference": "1f4931ba34896c8243f8f4150426dd069dde089c",
+                "url": "https://api.github.com/repos/nadlambino/php-error-page/zipball/55df6079a7d119ee8ed29d3e896f8e178742124c",
+                "reference": "55df6079a7d119ee8ed29d3e896f8e178742124c",
                 "shasum": ""
             },
             "require": {
@@ -435,7 +483,7 @@
                 "issues": "https://github.com/nadlambino/php-error-page/issues",
                 "source": "https://github.com/nadlambino/php-error-page/tree/master"
             },
-            "time": "2024-02-02T10:50:33+00:00"
+            "time": "2024-02-03T11:29:16+00:00"
         },
         {
             "name": "inspira/framework",
@@ -443,12 +491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/inspira-framework.git",
-                "reference": "4288eefe7ade7dd11d97caf67118d68093173f70"
+                "reference": "9d4cd7244a8954c4d1075181b81a43cf6a40dab1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/4288eefe7ade7dd11d97caf67118d68093173f70",
-                "reference": "4288eefe7ade7dd11d97caf67118d68093173f70",
+                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/9d4cd7244a8954c4d1075181b81a43cf6a40dab1",
+                "reference": "9d4cd7244a8954c4d1075181b81a43cf6a40dab1",
                 "shasum": ""
             },
             "require": {
@@ -495,7 +543,7 @@
                 "issues": "https://github.com/nadlambino/inspira-framework/issues",
                 "source": "https://github.com/nadlambino/inspira-framework/tree/master"
             },
-            "time": "2024-02-02T10:50:36+00:00"
+            "time": "2024-02-04T08:10:49+00:00"
         },
         {
             "name": "inspira/http",
@@ -503,12 +551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-http.git",
-                "reference": "0fc7fb23426400110a73ccf31dd14c0fc7fdf781"
+                "reference": "11319c5fe11b4f386d60cf9db9793a4de9110147"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-http/zipball/0fc7fb23426400110a73ccf31dd14c0fc7fdf781",
-                "reference": "0fc7fb23426400110a73ccf31dd14c0fc7fdf781",
+                "url": "https://api.github.com/repos/nadlambino/php-http/zipball/11319c5fe11b4f386d60cf9db9793a4de9110147",
+                "reference": "11319c5fe11b4f386d60cf9db9793a4de9110147",
                 "shasum": ""
             },
             "require": {
@@ -545,7 +593,7 @@
                 "issues": "https://github.com/nadlambino/php-http/issues",
                 "source": "https://github.com/nadlambino/php-http/tree/master"
             },
-            "time": "2024-02-02T10:50:44+00:00"
+            "time": "2024-02-03T09:47:09+00:00"
         },
         {
             "name": "inspira/pdo-database",
@@ -553,16 +601,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-pdo-database.git",
-                "reference": "9755e3723a1394658f97e39fa4c95b9240fea639"
+                "reference": "6bd981e4a291b5f50937053cdeced833205d3f75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/9755e3723a1394658f97e39fa4c95b9240fea639",
-                "reference": "9755e3723a1394658f97e39fa4c95b9240fea639",
+                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/6bd981e4a291b5f50937053cdeced833205d3f75",
+                "reference": "6bd981e4a291b5f50937053cdeced833205d3f75",
                 "shasum": ""
             },
             "require": {
+                "ext-pdo": "*",
                 "inspira/augmentable": "dev-master",
+                "inspira/closest-match": "dev-master",
                 "inspira/collection": "dev-master",
                 "inspira/container": "dev-master",
                 "inspira/contracts": "dev-master",
@@ -571,7 +621,6 @@
                 "symfony/string": "7.1.x-dev"
             },
             "require-dev": {
-                "inspira/config": "dev-master",
                 "inspira/error-page": "dev-master",
                 "symfony/var-dumper": "7.1.x-dev"
             },
@@ -600,7 +649,7 @@
                 "issues": "https://github.com/nadlambino/php-pdo-database/issues",
                 "source": "https://github.com/nadlambino/php-pdo-database/tree/master"
             },
-            "time": "2024-02-02T10:50:38+00:00"
+            "time": "2024-02-04T08:09:02+00:00"
         },
         {
             "name": "inspira/utils",
@@ -608,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-utils.git",
-                "reference": "c0151130ede0430d705d4cf75759e172380524d9"
+                "reference": "253f57eaa27f465d1191ce12e5201eeb0379828b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-utils/zipball/c0151130ede0430d705d4cf75759e172380524d9",
-                "reference": "c0151130ede0430d705d4cf75759e172380524d9",
+                "url": "https://api.github.com/repos/nadlambino/php-utils/zipball/253f57eaa27f465d1191ce12e5201eeb0379828b",
+                "reference": "253f57eaa27f465d1191ce12e5201eeb0379828b",
                 "shasum": ""
             },
             "require": {
@@ -645,7 +694,7 @@
                 "issues": "https://github.com/nadlambino/php-utils/issues",
                 "source": "https://github.com/nadlambino/php-utils/tree/master"
             },
-            "time": "2024-02-02T10:50:42+00:00"
+            "time": "2024-02-04T07:54:13+00:00"
         },
         {
             "name": "inspira/view",
@@ -1400,12 +1449,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "45519bd3399e65bb1f24c9417df98b5d640d0df9"
+                "reference": "3d0a98879bbc7585aff5f9a5a539074328cc2ca0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/45519bd3399e65bb1f24c9417df98b5d640d0df9",
-                "reference": "45519bd3399e65bb1f24c9417df98b5d640d0df9",
+                "url": "https://api.github.com/repos/symfony/string/zipball/3d0a98879bbc7585aff5f9a5a539074328cc2ca0",
+                "reference": "3d0a98879bbc7585aff5f9a5a539074328cc2ca0",
                 "shasum": ""
             },
             "require": {
@@ -1419,6 +1468,7 @@
                 "symfony/translation-contracts": "<2.5"
             },
             "require-dev": {
+                "symfony/emoji": "^7.1",
                 "symfony/error-handler": "^6.4|^7.0",
                 "symfony/http-client": "^6.4|^7.0",
                 "symfony/intl": "^6.4|^7.0",
@@ -1478,7 +1528,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-01T13:18:05+00:00"
+            "time": "2024-02-03T19:41:36+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1573,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "8035841b1317243ac52dd42cecee402edc08c97c"
+                "reference": "fce4acf3f5ba8c3dff0757adb86894a364b162b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/8035841b1317243ac52dd42cecee402edc08c97c",
-                "reference": "8035841b1317243ac52dd42cecee402edc08c97c",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/fce4acf3f5ba8c3dff0757adb86894a364b162b6",
+                "reference": "fce4acf3f5ba8c3dff0757adb86894a364b162b6",
                 "shasum": ""
             },
             "require": {
@@ -1648,7 +1698,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-23T15:06:13+00:00"
+            "time": "2024-02-03T21:17:35+00:00"
         }
     ],
     "aliases": [],
