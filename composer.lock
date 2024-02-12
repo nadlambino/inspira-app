@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-pdo-database.git",
-                "reference": "94f89e912eeb9ade3e9ad38ef69f75e523a02db1"
+                "reference": "1b7c10069de31895785e1fc04eb5cba1f7322995"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/94f89e912eeb9ade3e9ad38ef69f75e523a02db1",
-                "reference": "94f89e912eeb9ade3e9ad38ef69f75e523a02db1",
+                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/1b7c10069de31895785e1fc04eb5cba1f7322995",
+                "reference": "1b7c10069de31895785e1fc04eb5cba1f7322995",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
                 "issues": "https://github.com/nadlambino/php-pdo-database/issues",
                 "source": "https://github.com/nadlambino/php-pdo-database/tree/master"
             },
-            "time": "2024-02-11T14:47:19+00:00"
+            "time": "2024-02-12T09:56:36+00:00"
         },
         {
             "name": "inspira/utils",
