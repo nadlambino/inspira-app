@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-pdo-database.git",
-                "reference": "1b7c10069de31895785e1fc04eb5cba1f7322995"
+                "reference": "acdb32f492b40e1194191bda109836d41d077bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/1b7c10069de31895785e1fc04eb5cba1f7322995",
-                "reference": "1b7c10069de31895785e1fc04eb5cba1f7322995",
+                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/acdb32f492b40e1194191bda109836d41d077bf5",
+                "reference": "acdb32f492b40e1194191bda109836d41d077bf5",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
                 "issues": "https://github.com/nadlambino/php-pdo-database/issues",
                 "source": "https://github.com/nadlambino/php-pdo-database/tree/master"
             },
-            "time": "2024-02-12T09:56:36+00:00"
+            "time": "2024-02-13T06:52:48+00:00"
         },
         {
             "name": "inspira/utils",
@@ -1623,12 +1623,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "ad08f8ddeae34aa2acd4ca5bf25e937a7e868efd"
+                "reference": "602a6c6e3bd2adc36843e277e6f188e71c25e075"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/ad08f8ddeae34aa2acd4ca5bf25e937a7e868efd",
-                "reference": "ad08f8ddeae34aa2acd4ca5bf25e937a7e868efd",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/602a6c6e3bd2adc36843e277e6f188e71c25e075",
+                "reference": "602a6c6e3bd2adc36843e277e6f188e71c25e075",
                 "shasum": ""
             },
             "require": {
@@ -1698,7 +1698,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-09T11:50:29+00:00"
+            "time": "2024-02-13T08:54:26+00:00"
         }
     ],
     "aliases": [],
