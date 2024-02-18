@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-pdo-database.git",
-                "reference": "acdb32f492b40e1194191bda109836d41d077bf5"
+                "reference": "ba2b03e2e44393072b6559993a3591061aaed10d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/acdb32f492b40e1194191bda109836d41d077bf5",
-                "reference": "acdb32f492b40e1194191bda109836d41d077bf5",
+                "url": "https://api.github.com/repos/nadlambino/php-pdo-database/zipball/ba2b03e2e44393072b6559993a3591061aaed10d",
+                "reference": "ba2b03e2e44393072b6559993a3591061aaed10d",
                 "shasum": ""
             },
             "require": {
@@ -649,7 +649,7 @@
                 "issues": "https://github.com/nadlambino/php-pdo-database/issues",
                 "source": "https://github.com/nadlambino/php-pdo-database/tree/master"
             },
-            "time": "2024-02-13T06:52:48+00:00"
+            "time": "2024-02-18T12:07:55+00:00"
         },
         {
             "name": "inspira/utils",
@@ -702,26 +702,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-view.git",
-                "reference": "36a6f17327ff7a074201b0662f3a931c0a6a087b"
+                "reference": "c2b7bfe3c9571507748669c542ee156a6779be3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/36a6f17327ff7a074201b0662f3a931c0a6a087b",
-                "reference": "36a6f17327ff7a074201b0662f3a931c0a6a087b",
+                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/c2b7bfe3c9571507748669c542ee156a6779be3b",
+                "reference": "c2b7bfe3c9571507748669c542ee156a6779be3b",
                 "shasum": ""
             },
             "require": {
+                "inspira/container": "dev-master",
                 "inspira/contracts": "dev-master",
                 "php": "^8.3"
+            },
+            "require-dev": {
+                "inspira/error-page": "dev-master",
+                "symfony/var-dumper": "7.1.x-dev"
             },
             "default-branch": true,
             "type": "library",
             "autoload": {
                 "files": [
-                    "functions.php"
+                    "src/functions.php"
                 ],
                 "psr-4": {
-                    "Inspira\\View\\": "."
+                    "Inspira\\View\\": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -739,7 +744,7 @@
                 "issues": "https://github.com/nadlambino/php-view/issues",
                 "source": "https://github.com/nadlambino/php-view/tree/master"
             },
-            "time": "2024-02-02T10:50:45+00:00"
+            "time": "2024-02-18T14:17:13+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -1623,12 +1628,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "602a6c6e3bd2adc36843e277e6f188e71c25e075"
+                "reference": "c431188a7f50515d5c65c590c7bea0675d3b46a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/602a6c6e3bd2adc36843e277e6f188e71c25e075",
-                "reference": "602a6c6e3bd2adc36843e277e6f188e71c25e075",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/c431188a7f50515d5c65c590c7bea0675d3b46a1",
+                "reference": "c431188a7f50515d5c65c590c7bea0675d3b46a1",
                 "shasum": ""
             },
             "require": {
@@ -1644,7 +1649,7 @@
                 "symfony/http-kernel": "^6.4|^7.0",
                 "symfony/process": "^6.4|^7.0",
                 "symfony/uid": "^6.4|^7.0",
-                "twig/twig": "~3.8.0"
+                "twig/twig": "^3.0.4"
             },
             "bin": [
                 "Resources/bin/var-dump-server"
@@ -1698,7 +1703,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-13T08:54:26+00:00"
+            "time": "2024-02-15T11:36:43+00:00"
         }
     ],
     "aliases": [],
