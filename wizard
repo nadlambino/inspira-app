@@ -14,7 +14,7 @@ use Inspira\Framework\Application;
 
 $app = new Application();
 
-$app->setBasePath('./')
+$app->setBasePath(__DIR__)
     ->runOnConsole()
     ->boot()
     ->start();
