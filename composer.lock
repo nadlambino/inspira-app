@@ -491,12 +491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/inspira-framework.git",
-                "reference": "7563dc6188a3ae0260db1bb0150b314fcd091461"
+                "reference": "fa0c2ea8caff1a4eb50c8d285295f9bd8a720893"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/7563dc6188a3ae0260db1bb0150b314fcd091461",
-                "reference": "7563dc6188a3ae0260db1bb0150b314fcd091461",
+                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/fa0c2ea8caff1a4eb50c8d285295f9bd8a720893",
+                "reference": "fa0c2ea8caff1a4eb50c8d285295f9bd8a720893",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +543,7 @@
                 "issues": "https://github.com/nadlambino/inspira-framework/issues",
                 "source": "https://github.com/nadlambino/inspira-framework/tree/master"
             },
-            "time": "2024-02-19T10:16:23+00:00"
+            "time": "2024-02-19T13:25:08+00:00"
         },
         {
             "name": "inspira/http",
