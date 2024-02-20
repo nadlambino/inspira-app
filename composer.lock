@@ -491,12 +491,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/inspira-framework.git",
-                "reference": "fa0c2ea8caff1a4eb50c8d285295f9bd8a720893"
+                "reference": "8598a9fcbe85f51983a62235541a17c8e5f9becd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/fa0c2ea8caff1a4eb50c8d285295f9bd8a720893",
-                "reference": "fa0c2ea8caff1a4eb50c8d285295f9bd8a720893",
+                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/8598a9fcbe85f51983a62235541a17c8e5f9becd",
+                "reference": "8598a9fcbe85f51983a62235541a17c8e5f9becd",
                 "shasum": ""
             },
             "require": {
@@ -543,7 +543,7 @@
                 "issues": "https://github.com/nadlambino/inspira-framework/issues",
                 "source": "https://github.com/nadlambino/inspira-framework/tree/master"
             },
-            "time": "2024-02-19T13:25:08+00:00"
+            "time": "2024-02-20T14:32:48+00:00"
         },
         {
             "name": "inspira/http",
@@ -657,12 +657,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-utils.git",
-                "reference": "92f5645e59e8ffcf085fe9394dfbfc780b31b93a"
+                "reference": "99a93709ba27a9f747abdcb5fe4f0ee1a6801490"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-utils/zipball/92f5645e59e8ffcf085fe9394dfbfc780b31b93a",
-                "reference": "92f5645e59e8ffcf085fe9394dfbfc780b31b93a",
+                "url": "https://api.github.com/repos/nadlambino/php-utils/zipball/99a93709ba27a9f747abdcb5fe4f0ee1a6801490",
+                "reference": "99a93709ba27a9f747abdcb5fe4f0ee1a6801490",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +694,7 @@
                 "issues": "https://github.com/nadlambino/php-utils/issues",
                 "source": "https://github.com/nadlambino/php-utils/tree/master"
             },
-            "time": "2024-02-19T08:10:25+00:00"
+            "time": "2024-02-20T10:27:21+00:00"
         },
         {
             "name": "inspira/view",
@@ -702,12 +702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-view.git",
-                "reference": "f9465e786428a019a984335e95852772b1973b43"
+                "reference": "2865d2609c89d4e14ea41b50a1cc09456ebc7540"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/f9465e786428a019a984335e95852772b1973b43",
-                "reference": "f9465e786428a019a984335e95852772b1973b43",
+                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/2865d2609c89d4e14ea41b50a1cc09456ebc7540",
+                "reference": "2865d2609c89d4e14ea41b50a1cc09456ebc7540",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "issues": "https://github.com/nadlambino/php-view/issues",
                 "source": "https://github.com/nadlambino/php-view/tree/master"
             },
-            "time": "2024-02-20T10:02:00+00:00"
+            "time": "2024-02-20T14:27:10+00:00"
         },
         {
             "name": "phpoption/phpoption",
