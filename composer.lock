@@ -702,12 +702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-view.git",
-                "reference": "aba52d93ff656c5ea2a10cfa7e6862889b68ba1c"
+                "reference": "f9465e786428a019a984335e95852772b1973b43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/aba52d93ff656c5ea2a10cfa7e6862889b68ba1c",
-                "reference": "aba52d93ff656c5ea2a10cfa7e6862889b68ba1c",
+                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/f9465e786428a019a984335e95852772b1973b43",
+                "reference": "f9465e786428a019a984335e95852772b1973b43",
                 "shasum": ""
             },
             "require": {
@@ -745,7 +745,7 @@
                 "issues": "https://github.com/nadlambino/php-view/issues",
                 "source": "https://github.com/nadlambino/php-view/tree/master"
             },
-            "time": "2024-02-19T12:52:05+00:00"
+            "time": "2024-02-20T10:02:00+00:00"
         },
         {
             "name": "phpoption/phpoption",
