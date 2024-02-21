@@ -2,7 +2,7 @@
 
 namespace App\Views;
 
-use Inspira\View\Components\Component;
+use Inspira\View\Component;
 
 class Note extends Component
 {
