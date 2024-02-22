@@ -702,12 +702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-view.git",
-                "reference": "980e3516424e9ce8453366995ae2f38b513172e1"
+                "reference": "7fbcbb110fb425f4a579a130ffa030cfca2f366e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/980e3516424e9ce8453366995ae2f38b513172e1",
-                "reference": "980e3516424e9ce8453366995ae2f38b513172e1",
+                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/7fbcbb110fb425f4a579a130ffa030cfca2f366e",
+                "reference": "7fbcbb110fb425f4a579a130ffa030cfca2f366e",
                 "shasum": ""
             },
             "require": {
@@ -747,7 +747,7 @@
                 "issues": "https://github.com/nadlambino/php-view/issues",
                 "source": "https://github.com/nadlambino/php-view/tree/master"
             },
-            "time": "2024-02-22T14:28:44+00:00"
+            "time": "2024-02-22T15:00:24+00:00"
         },
         {
             "name": "ivopetkov/html5-dom-document-php",
