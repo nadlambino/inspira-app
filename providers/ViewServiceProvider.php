@@ -12,7 +12,7 @@ class ViewServiceProvider extends Provider
         View::getInstance()
             ->setViewsPath(base_path('/assets/views'))
             ->setComponentPrefix('app')
-            ->autoloadComponentsFrom('App\Views');
+            ->autoDiscoverComponentsFrom('App\Views');
     }
 
     public function start(): void
