@@ -18,7 +18,8 @@
 	"require": {
 		"php": "^8.3",
 		"inspira/framework": "dev-master",
-		"ext-pdo": "*"
+		"ext-pdo": "*",
+		"ivopetkov/html5-dom-document-php": "2.*"
 	},
 	"minimum-stability": "dev",
 	"require-dev": {
