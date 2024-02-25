@@ -446,12 +446,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/inspira-framework.git",
-                "reference": "700678500969a2e2b513c7df8922f6210775cc34"
+                "reference": "554b33f0d6dd3cb425e086597636fbec24c5baa0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/700678500969a2e2b513c7df8922f6210775cc34",
-                "reference": "700678500969a2e2b513c7df8922f6210775cc34",
+                "url": "https://api.github.com/repos/nadlambino/inspira-framework/zipball/554b33f0d6dd3cb425e086597636fbec24c5baa0",
+                "reference": "554b33f0d6dd3cb425e086597636fbec24c5baa0",
                 "shasum": ""
             },
             "require": {
@@ -498,7 +498,7 @@
                 "issues": "https://github.com/nadlambino/inspira-framework/issues",
                 "source": "https://github.com/nadlambino/inspira-framework/tree/master"
             },
-            "time": "2024-02-24T10:11:10+00:00"
+            "time": "2024-02-25T06:37:51+00:00"
         },
         {
             "name": "inspira/http",
@@ -663,12 +663,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nadlambino/php-view.git",
-                "reference": "8c37595ac730039e2d1a1dde2c5961909a8ae3b5"
+                "reference": "b3f74ee0e13c81d5e548f522394fb14a46f91d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/8c37595ac730039e2d1a1dde2c5961909a8ae3b5",
-                "reference": "8c37595ac730039e2d1a1dde2c5961909a8ae3b5",
+                "url": "https://api.github.com/repos/nadlambino/php-view/zipball/b3f74ee0e13c81d5e548f522394fb14a46f91d5f",
+                "reference": "b3f74ee0e13c81d5e548f522394fb14a46f91d5f",
                 "shasum": ""
             },
             "require": {
@@ -707,7 +707,7 @@
                 "issues": "https://github.com/nadlambino/php-view/issues",
                 "source": "https://github.com/nadlambino/php-view/tree/master"
             },
-            "time": "2024-02-24T15:14:20+00:00"
+            "time": "2024-02-25T05:42:40+00:00"
         },
         {
             "name": "ivopetkov/html5-dom-document-php",
